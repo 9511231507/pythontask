@@ -1,0 +1,71 @@
+# # # # # d={"key":"value","kye":"value"}
+# # # # d={"name":"prasad","age":"18"}
+# # # # print(type(d))
+# # # # for x,y in d.items():
+# # # #     print(x,y)
+# # # # d["sports"]="criket"    
+
+# # # # d.update({"age":"19"})
+# # # # print(d)
+# # # myfriend={
+# # #     "friend1":{
+# # #         "name":"sanket",
+# # #         "age":"18"
+# # #     },
+# # #     "friend2":{
+# # #         "name":"rohan",
+# # #         "age":"19"
+# # #     },
+# # #     "friend3":{
+# # #         "name":"sai",
+# # #         "age":"65"
+# # #     },
+# # # }
+# # # print(myfriend)
+
+
+
+
+
+# # friend = {}
+
+# # for i in range(2):
+# #     name = input("Enter  name: ")
+# #     age = input("Enter age: ")
+
+# #     friend[name] = age
+# # print(friend)
+
+
+
+# friend = {}
+
+# while True:
+    
+#     name = input("Enter  name: ")
+#     age = input("Enter age: ")
+#     friend[name] = age
+#     endloop=input("do you want to continue yes/no") 
+#     if endloop=="no":
+#         break
+# print(friend)
+
+friend = []
+while True:
+    name = input("Enter  name: ")
+    age = input("Enter age: ")
+    
+    endloop=input("do you want to continue yes/no") 
+    if endloop=="no":
+        break
+    
+def convert(frient):
+    it=iter(friend)
+    res_dct=dict(zip(name,age))
+    return res_dct
+print(convert(friend))    
+
+
+
+
+
